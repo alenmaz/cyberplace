@@ -10,9 +10,9 @@ public class AbilityHolder : MonoBehaviour
     public GameObject ImageQ_Active;
     public GameObject ImageQ_NoActive;
 
-    float coolDownTime;
-    float activeTime;
-    float tickTime;
+    public float coolDownTime;
+    public float activeTime;
+    public float tickTime;
     AbilityState state;
 
     public enum AbilityState

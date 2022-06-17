@@ -14,14 +14,14 @@ public class Bar : MonoBehaviour
         counter = GetComponentInChildren<TextMeshProUGUI>();
     }
 
-    public void SetMaxValue(float health)
+    public virtual void SetMaxValue(float health)
     {
         slider.maxValue = health;
         slider.value = health;
         UpdateUI();
     }
 
-    public void SetValue(float health)
+    public virtual void SetValue(float health)
     {
         slider.value = health;
         UpdateUI();
